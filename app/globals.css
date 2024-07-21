@@ -113,7 +113,7 @@
   }
 
   .stackNames {
-    @apply font-dm_sans text-[14px] lg:text-base font-light lg:font-bold leading-[26px]
+    @apply font-dm_sans text-[12px] sm:text-[14px] lg:text-base font-light lg:font-bold leading-[26px]
   }
 
   .projectCard-background {
@@ -199,7 +199,7 @@
 
   /* PADDING:  navbar / main / footer */
   .nabvar_main_footer-padding {
-    @apply p-5 md:px-10 md:py-5 lg:px-16 xl:px-24 2xl:px-48;
+    @apply p-4 md:px-10 md:py-5 lg:px-16 xl:px-24 2xl:px-48;
   }
 
   /* PADDING: message, section tech stack, section projet, contact */
