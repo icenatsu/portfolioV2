@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
       </nav>
       {showMenu && (
-          <NavLinks className="flex basis-full flex-col text-white bg-secondary_color dark:bg-red-400 lg:hidden" />
+          <NavLinks className="flex basis-full flex-col text-white bg-secondary_color lg:hidden" />
       )}
     </>
   );
