@@ -5,7 +5,7 @@ const SwitchLanguage = () => {
   const language = useContext(LanguageContext);
 
   return (
-    <fieldset className="flex">
+    <fieldset className="flex items-center">
       <legend aria-hidden="true" className=""></legend>
       <input
         className=""
