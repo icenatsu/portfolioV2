@@ -16,7 +16,7 @@ const SwitchLanguage = () => {
         onChange={language?.switchLanguage}
         defaultChecked={language?.isFrenchLanguage ? true : false}
       />
-      <label className="text-primary_color dark:text-octonary_colorswitchLanguage px-2" htmlFor="french">
+      <label className="text-primary_color dark:text-octonary_color switchLanguage px-2" htmlFor="french">
         FRA
       </label>
       <input

@@ -113,7 +113,7 @@
   }
 
   .stackNames {
-    @apply font-dm_sans text-sm lg:text-base font-medium leading-[26px]
+    @apply font-dm_sans text-sm lg:text-base font-bold leading-[26px]
   }
 
   .projectCard-background {

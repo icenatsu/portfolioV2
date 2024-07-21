@@ -8,8 +8,8 @@ type IconStackProps = {
 const IconStack = ({ iconName, stackName }: IconStackProps) => {
     return (
         <div className="flex flex-col items-center gap-2">
-            <Icon icon={iconName} width="105" height="105" className="w-10 md:w-16 lg:w-24 lg:myt-4" color="#459659" />
-            <p className="stackNames">{stackName}</p>
+            <Icon icon={iconName} width="105" height="105" className="w-10 md:w-16 lg:w-24 lg:myt-4 " color="#459659" />
+            <p className="text-secondary_color dark:text-octonary_color stackNames">{stackName}</p>
         </div>
     );
 };
