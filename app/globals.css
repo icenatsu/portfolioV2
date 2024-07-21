@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 230, 60%, 98%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 346.8 77.2% 49.8%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 346.8 77.2% 49.8%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0, 0%, 9%;
+    --foreground: 0 0% 95%;
+    --card: 24 9.8% 10%;
+    --card-foreground: 0 0% 95%;
+    --popover: 0 0% 9%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 346.8 77.2% 49.8%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 85.7% 97.3%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 346.8 77.2% 49.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+
+  @keyframes fadeInUp {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0) scale(1);
+      transition: transform all 300ms ease-in-out;
+    }
+  }
+  
+  .fade-in-up {
+    transform: scale(1);
+    animation: fadeInUp 2s ease-out forwards;
+    scale: 1;
+    transition: scale 300ms ease-in-out;
+  }
+
+  .fade-in-up:hover {
+    scale: 1.05;
+  }
+
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+  .font-dm_sans {
+    font-family: "Dm_sans", sans-serif;
+  }
+
+  .switchLanguage {
+    @apply font-dm_sans font-medium leading-[26px]
+  }
+
+  .navbar-text {
+    @apply font-dm_sans leading-[26px];
+  }
+
+  .message-text {
+    @apply font-poppins text-base sm:text-[28px] lg:text-[38px] xl:text-[48px] leading-[25px] sm:leading-[40px] lg:leading-[70px] font-bold tracking-[-1px] text-secondary_color dark:text-senary_color;
+  }
+
+  .about-text {
+    @apply font-dm_sans text-[14px] sm:text-[16px] lg:text-[16px] xl:text-[18px] font-normal text-secondary_color dark:text-senary_color;
+  }
+
+  .title-category-text {
+    @apply font-poppins text-sm sm:text-lg md:text-2xl lg:text-4xl xl:text-5xl leading-[26px] font-bold text-secondary_color dark:text-septenary_color text-center;
+  }
+
+  .description-category-text {
+    @apply font-poppins text-sm md:text-xl lg:text-3xl  font-normal text-primary_color dark:text-octonary_color text-center;
+  }
+
+  .stackNames {
+    @apply font-dm_sans text-sm lg:text-base font-medium leading-[26px]
+  }
+
+  .projectCard-background {
+    @apply text-quinary_color dark:bg-ninth_color;
+  }
+
+  .projectCard-title-text {
+    @apply font-poppins text-sm lg:text-[28px] leading-[26px] font-medium text-quaternary_color dark:text-septenary_color;
+  }
+
+  .projectCard-description-text {
+    @apply font-poppins text-sm lg:text-[18px] leading-[26px] font-light text-primary_color dark:text-septenary_color;
+  }
+
+  .projectCard-stack-text {
+    @apply font-poppins text-sm lg:text-[15px] leading-[26px] font-normal text-secondary_color dark:text-septenary_color;
+  }
+
+  .projectCard-preview-text {
+    @apply font-poppins text-sm lg:text-[16px] leading-[26px] font-normal text-quaternary_color dark:text-quinary_color;
+  }
+
+  .coordinate {
+    @apply font-dm_sans text-sm lg:text-[19px] leading-[26px] font-normal text-secondary_color dark:text-primary_color;
+  }
+
+  .design-text {
+    @apply font-poppins text-sm lg:text-[16px] leading-[26px] font-normal text-primary_color dark:text-octonary_color py-2;
+  }
+
+  .contact {
+    @apply font-dm_sans text-[16px] sm:text-[18px] md:text-[22px] lg:text-[26px] xl:text-[58px] xl:leading-[70px] text-secondary_color dark:text-primary_color;
+  }
+
+  .text-gradient {
+    background: linear-gradient(90deg, #13b0f5 3%, #e70faa);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .background-gradient {
+    background: linear-gradient(
+      90deg,
+      rgba(19, 176, 245, 1) 3%,
+      rgba(231, 15, 170, 1) 100%
+    );
+  }
+
+  .custom-shadow {
+    --shadow-x: 2px;
+    --shadow-y: 2px;
+    --shadow-blur: 100px;
+    --shadow-spread: 0;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+
+    box-shadow: var(--shadow-x) var(--shadow-y) var(--shadow-blur)
+      var(--shadow-spread) var(--shadow-color);
+  }
+
+  .about-enter {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  .about-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .about-exit {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .about-exit-active {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  /* PADDING:  navbar / main / footer */
+  .nabvar_main_footer-padding {
+    @apply p-5 md:px-10 md:py-5 lg:px-10 xl:px-48;
+  }
+
+  /* PADDING: message, section tech stack, section projet, contact */
+  .message_sectionTech_sectionProject_contact-padding {
+    @apply py-10 sm:py-16 md:py-24 lg:py-36 xl:py-40;
+  }
+
+  /* GAP: message, section tech stack, section projet, contact */
+  .message_sectionTech_sectionProject_contact-gap {
+    @apply gap-0 md:gap-10 lg:gap-16 xl:gap-10;
+  }
+}
+/* 
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... } 
+*/

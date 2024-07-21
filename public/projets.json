@@ -1,0 +1,60 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Piiquante",
+      "description": [
+        "Piiquante est une API sécurisée pour une application d'avis gastronomiques. J'ai pu découvrir NodeJS associé à la base de données noSQL MongoDB.",
+        "Piiquante is a secure API for a food review application. I explored NodeJS in conjunction with the noSQL database MongoDB."
+      ],
+      "cover": {
+        "tablette": "/assets/images/projects_img/covers/tablette/piquante_tab.svg"
+      },
+      "stacks": ["NODEJS", "MongoDB"],
+      "code": "https://github.com/icenatsu/projet6_piquante"
+    },
+    {
+      "id": "2",
+      "title": "Portfolio",
+      "description": [
+        "Création de mon portfolio en React avec le framework NexJS , j'ai découvert l'utilisation de Tailwind et de Typescript qui m'a permis de rendre le code plus robuste.",
+        "Creating my portfolio in React with the NextJS framework, I discovered the use of Tailwind and TypeScript, which allowed me to make the code more robust."
+      ],
+      "cover": {
+        "tablette": "/assets/images/projects_img/covers/tablette/portfolio_tab.svg"
+      },
+      "stacks": ["NextJS", "Typescript", "Tailwind"],
+      "preview": "https://portfolio-next-icenatsu.vercel.app/",
+      "code": "https://github.com/icenatsu/portfolio_next"
+    },
+    {
+      "id": "3",
+      "title": "Course directory",
+      "description": [
+        "La création de ce site m'a permis d'apprendre et pratiquer le framework nextJS ainsi que ses concepts mais également le balisage Markdown.",
+        "Creating this site allowed me to learn and practice the NextJS framework and its concepts, as well as Markdown formatting."
+      ],
+      "cover": {
+        "tablette": "/assets/images/projects_img/covers/tablette/course_directory_tab.svg"
+      },
+      "stacks": ["NextJS", "Typescript", "Tailwind"],
+      "preview": "https://www.xicex.net",
+      "code": "https://github.com/icenatsu/notions_typescript"
+    },
+    {
+      "id": "4",
+      "title": "Kasa",
+      "description": [
+        "Kasa est une application web de location immobilière en utilisant la bibliothèque React.",
+        "Kasa is a web application for real estate rentals using the React library."
+      ],
+
+      "cover": {
+        "tablette": "/assets/images/projects_img/covers/tablette/kasa_tab.svg"
+      },
+      "stacks": ["REACT", "SASS"],
+      "preview": "https://projet7-kasa.vercel.app/",
+      "code": "https://github.com/icenatsu/projet7_kasa"
+    }
+  ]
+}
