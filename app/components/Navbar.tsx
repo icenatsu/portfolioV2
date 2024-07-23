@@ -22,7 +22,7 @@ const Navbar = () => {
         <Logo/>
         <SwitchLanguage/>
         <div className="flex justify-end items-center">
-          <NavLinks className="text-[20px] font-medium text-primary_color dark:text-octonary_color hidden lg:flex" />
+          <NavLinks className="lg:text-[14px] xl:text-[20px] font-medium text-primary_color dark:text-octonary_color hidden lg:flex" />
           <SocialNetwork themeLightColor='fill-primary_color' hoverThemeLightColor="hover:fill-secondary_color" />
           <button className="p-4 lg:hidden hover:text-secondary_color dark:hover:text-white" onClick={handleClick} aria-label="Afficher le menu">
             <Icon

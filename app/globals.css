@@ -89,7 +89,7 @@
   }
 
   .switchLanguage {
-    @apply font-dm_sans text-sm font-medium leading-[26px]
+    @apply font-dm_sans text-sm lg:text-[10px] xl:text-sm font-medium leading-[26px]
   }
 
   .navbar-text {
