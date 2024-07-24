@@ -24,7 +24,7 @@
         "tablette": "/assets/images/projects_img/covers/tablette/portfolio_tab.svg"
       },
       "stacks": ["NextJS", "Typescript", "Tailwind"],
-      "preview": "https://portfolio-next-icenatsu.vercel.app/",
+      "preview": "https://www.xicex.fr",
       "code": "https://github.com/icenatsu/portfolio_next"
     },
     {
