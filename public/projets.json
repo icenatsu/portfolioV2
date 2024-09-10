@@ -38,7 +38,7 @@
         "tablette": "/assets/images/projects_img/covers/tablette/course_directory_tab.svg"
       },
       "stacks": ["NextJS", "Typescript", "Tailwind"],
-      "preview": "https://www.xicex.net",
+      "preview": "https://notions-typescript.vercel.app/",
       "code": "https://github.com/icenatsu/notions_typescript"
     },
     {
