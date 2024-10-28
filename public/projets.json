@@ -25,7 +25,7 @@
         "tablette": "/assets/images/projects_img/covers/tablette/veto_app.svg"
       },
       "stacks": ["NextJS", "Typescript", "Tailwind", "Docker"],
-      "preview": "https://xicex.net",
+      "preview": "https://www.xicex.net",
       "code": "https://github.com/icenatsu/veto-app"
     },
     {
