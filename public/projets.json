@@ -15,17 +15,18 @@
     },
     {
       "id": "2",
-      "title": "Portfolio",
+      "title": "Veto-api",
       "description": [
-        "Création de mon portfolio en React avec le framework NexJS , j'ai découvert l'utilisation de Tailwind et de Typescript qui m'a permis de rendre le code plus robuste.",
-        "Creating my portfolio in React with the NextJS framework, I discovered the use of Tailwind and TypeScript, which allowed me to make the code more robust."
+        "API de recensement pour vétérinaires en Next.js. Déployée sur un serveur VPS avec Docker. Mise en cache des tuiles OSM via Nginx.",
+        "Census API for veterinarians in Next.js. Deployed on a VPS server with Docker. Caching OSM tiles via Nginx."
       ],
+
       "cover": {
-        "tablette": "/assets/images/projects_img/covers/tablette/portfolio_tab.svg"
+        "tablette": "/assets/images/projects_img/covers/tablette/veto_app.svg"
       },
-      "stacks": ["NextJS", "Typescript", "Tailwind"],
-      "preview": "https://www.xicex.fr",
-      "code": "https://github.com/icenatsu/portfolio_next"
+      "stacks": ["NextJS", "Typescript", "Tailwind", "Docker"],
+      "preview": "https://xicex.net",
+      "code": "https://github.com/icenatsu/veto-app"
     },
     {
       "id": "3",
@@ -42,7 +43,7 @@
       "code": "https://github.com/icenatsu/notions_typescript"
     },
     {
-      "id": "4",
+      "id": "5",
       "title": "Kasa",
       "description": [
         "Kasa est une application web de location immobilière en utilisant la bibliothèque React.",
