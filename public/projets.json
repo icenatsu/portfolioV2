@@ -26,7 +26,7 @@
       },
       "stacks": ["NextJS", "Typescript", "Tailwind", "Docker"],
       "preview": "https://www.xicex.net",
-      "code": "https://github.com/icenatsu/veto-app"
+      "code": "https://github.com/icenatsu/veto_Api"
     },
     {
       "id": "3",
